@@ -1,0 +1,94 @@
+Mar 02, 2022 9:45:49 PM a1.assignment1fx.App checkLogin
+SEVERE: Unknown Critical Error Occurred
+Mar 02, 2022 11:56:44 PM a1.assignment1fx.backend.Librarian loadHistory
+SEVERE: Unable to Read History Log
+Mar 03, 2022 12:20:57 AM a1.assignment1fx.backend.Librarian loadHistory
+SEVERE: Unknown Critical Error Occurred
+Mar 03, 2022 1:51:21 AM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated records in requests.csv
+Mar 03, 2022 1:53:17 AM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated records in requests.csv
+Mar 03, 2022 1:57:15 AM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in requests.csv
+Mar 03, 2022 1:59:54 AM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in requests.csv
+Mar 03, 2022 5:03:24 AM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in requests.csv
+Mar 03, 2022 5:03:24 AM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in lendingList.csv
+Mar 03, 2022 5:03:24 AM a1.assignment1fx.backend.Librarian modifyRecords
+WARNING: Updated Item Records
+Mar 03, 2022 5:00:40 PM a1.assignment1fx.App checkLogin
+SEVERE: Unknown Critical Error Occurred
+Mar 03, 2022 5:03:45 PM a1.assignment1fx.App checkLogin
+SEVERE: Unknown Critical Error Occurred
+Mar 03, 2022 5:03:55 PM a1.assignment1fx.App checkLogin
+SEVERE: Unknown Critical Error Occurred
+Mar 03, 2022 7:45:55 PM a1.assignment1fx.backend.Librarian appendRecord
+WARNING: New Item Record Added : 600,tobasbfa,random,document,123123,0
+
+Mar 03, 2022 7:46:08 PM a1.assignment1fx.backend.Librarian modifyRecords
+WARNING: Updated Item Records
+Mar 03, 2022 7:46:12 PM a1.assignment1fx.backend.Librarian modifyRecords
+WARNING: Updated Item Records
+Mar 03, 2022 7:46:25 PM a1.assignment1fx.backend.Librarian modifyRecords
+WARNING: Removed Items with ID : [600]
+Mar 03, 2022 7:46:25 PM a1.assignment1fx.backend.Librarian modifyRecords
+WARNING: Updated Item Records
+Mar 03, 2022 7:46:37 PM a1.assignment1fx.backend.Librarian modifyRecords
+WARNING: Updated Item Records
+Mar 03, 2022 7:46:41 PM a1.assignment1fx.backend.Librarian modifyRecords
+WARNING: Updated Item Records
+Mar 03, 2022 8:22:28 PM a1.assignment1fx.backend.Librarian appendRecord
+WARNING: New Item Record Added : 1234,boomshakalaka,david,document,15,0
+
+Mar 03, 2022 8:22:49 PM a1.assignment1fx.backend.Librarian modifyRecords
+WARNING: Updated Item Records
+Mar 03, 2022 8:22:54 PM a1.assignment1fx.backend.Librarian modifyRecords
+WARNING: Removed Items with ID : [1234]
+Mar 03, 2022 8:22:54 PM a1.assignment1fx.backend.Librarian modifyRecords
+WARNING: Updated Item Records
+Mar 03, 2022 10:31:40 PM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in lendingLog.log
+Mar 03, 2022 10:31:40 PM a1.assignment1fx.backend.Librarian modifyRecords
+WARNING: Updated Item Records
+Mar 03, 2022 10:47:18 PM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in lendingLog.log
+Mar 03, 2022 10:47:18 PM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in requests.csv
+Mar 03, 2022 10:47:18 PM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in waitingList.csv
+Mar 03, 2022 10:47:18 PM a1.assignment1fx.backend.Librarian modifyRecords
+WARNING: Updated Item Records
+Mar 04, 2022 1:05:48 AM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in lendingList.csv
+Mar 04, 2022 1:05:48 AM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in lendingLog.log
+Mar 04, 2022 1:05:48 AM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in requests.csv
+Mar 04, 2022 1:05:48 AM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in waitingList.csv
+Mar 04, 2022 1:05:48 AM a1.assignment1fx.backend.Librarian modifyRecords
+WARNING: Updated Item Records
+Mar 04, 2022 1:10:34 AM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in lendingList.csv
+Mar 04, 2022 1:10:34 AM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in lendingLog.log
+Mar 04, 2022 1:10:34 AM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in requests.csv
+Mar 04, 2022 1:10:34 AM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in waitingList.csv
+Mar 04, 2022 1:10:34 AM a1.assignment1fx.backend.Librarian modifyRecords
+WARNING: Updated Item Records
+Mar 06, 2022 11:33:25 PM a1.assignment1fx.backend.Student loadLogs
+SEVERE: Unknown Critical Error Occurred
+Mar 07, 2022 12:20:44 AM a1.assignment1fx.App checkLogin
+SEVERE: Unknown Critical Error Occurred
+Mar 07, 2022 6:57:29 PM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in librarian.csv
+Mar 07, 2022 6:57:58 PM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in librarian.csv
+Mar 07, 2022 7:05:44 PM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in librarian.csv
+Mar 07, 2022 7:06:02 PM a1.assignment1fx.backend.Librarian writeLogs
+WARNING: Updated Records in librarian.csv

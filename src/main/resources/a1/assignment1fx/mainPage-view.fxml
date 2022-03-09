@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="a1.assignment1fx.frontend.AppController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="428.0" fitWidth="268.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/kourosh-qaffari-RrhhzitYizg-unsplash.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="269.0" layoutY="1.0" prefHeight="400.0" prefWidth="331.0">
+               <children>
+                  <Label layoutX="39.0" layoutY="261.0" text="Password" textFill="#b9a915">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="35.0" layoutY="222.0" text="Username" textFill="#b9a915">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="57.0" fitWidth="73.0" layoutX="137.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/Padlock-Vector-Art-Icon.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="username" layoutX="144.0" layoutY="223.0" promptText="Username" />
+                  <PasswordField fx:id="password" layoutX="145.0" layoutY="263.0" promptText="Password" />
+                  <Button fx:id="login_btn" layoutX="127.0" layoutY="350.0" mnemonicParsing="false" onAction="#checkLogin" prefWidth="75.0" style="-fx-background-color: #e8d612;" text="Login" />
+                  <Label fx:id="bad_login" layoutX="42.0" layoutY="313.0" prefHeight="19.0" prefWidth="255.0" textAlignment="CENTER" textFill="RED">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Text fill="WHITE" layoutX="77.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Library Managment">
+                     <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <RadioButton fx:id="student" layoutX="36.0" layoutY="173.0" mnemonicParsing="false" text="Student" textFill="#b9a915">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="user" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="librarian" layoutX="126.0" layoutY="173.0" mnemonicParsing="false" text="Librarian" textFill="#b9a915" toggleGroup="$user" />
+                  <RadioButton fx:id="admin" layoutX="219.0" layoutY="173.0" mnemonicParsing="false" text="Admin" textFill="#b9a915" toggleGroup="$user" />
+                  <Text fill="#b9a915" layoutX="125.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Are You a...">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
